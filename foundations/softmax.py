@@ -10,4 +10,5 @@ class Solution:
         # return np.round(your_answer, 4)
         shifted = z - np.max(z)
         exps = np.exp(shifted)
-        return np.round(exps / np.sum(exps), 4)
+
+        return np.round(exps /np.sum(exps), 4)
